@@ -1615,3 +1615,26 @@ a {
         max-width: 280px !important; 
     }
 }
+* =========================================
+   Force Light Theme Globally on ALL Pages
+========================================= */
+:root {
+  --px-body-bg: #ffffff !important;
+  --px-body-bg-rgb: 255, 255, 255 !important;
+  --px-mode: #000000 !important;
+  --px-mode-rgb: 0, 0, 0 !important;
+  --px-text: #000000 !important;
+  --px-heading: #000000 !important;
+}
+
+/* Ensure the dark logo shows instead of the white one */
+.logo-light {
+    display: none !important;
+}
+.logo-dark {
+    display: block !important;
+}
+/* Instantly hides the dark/light mode button */
+.theme-btn {
+    display: none !important;
+}
