@@ -1539,7 +1539,7 @@ a {
 #type-it {
     font-size: 28px !important; 
     font-weight: 400 !important; 
-    color: #ffc107 !important; /* A highly readable, professional yellow */
+    color: #000000 !important; /* A highly readable, professional yellow */
 }
 
 /* Shrinks it down nicely for mobile phones so it fits on one line */
